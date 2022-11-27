@@ -15,7 +15,7 @@ const { devices } = require('@playwright/test');
 const config = {
   testDir: './tests',
   /* Maximum time one test can run for. */
-  timeout: 3 * 1000,
+  timeout: 100 * 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -51,6 +51,8 @@ const config = {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
+        headless: false,
+        viewport: { width: 1280, height: 720 },
       },
     },
 

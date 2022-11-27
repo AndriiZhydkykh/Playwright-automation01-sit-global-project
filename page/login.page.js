@@ -24,8 +24,7 @@ constructor(page) {
         return await super.findElement(logoOfPrivate)
     }
     async open() {
-        await this.page.goto('/')
-        //await super.openURL('/')
+        await super.openURL('/')
     }
 
 }

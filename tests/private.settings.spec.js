@@ -33,4 +33,11 @@ test.describe('Subscription testing ', async () => {
       await expect(await privateSettingsPage.getSubscriptionTotalOfPrivate()).toContainText('AUD');
     })
 
+    test.afterEach(async ({ page }, testInfo) => {
+      await testInfo.attach("After test screen", {
+      body: await page.screenshot(),
+      contentType: "image/png",
+      });
+    });
+
  })

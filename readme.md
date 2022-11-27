@@ -19,18 +19,11 @@ npm init playwright@latest
 ```
 
 ## Tests
-### Run this command in a terminal in visual studio code to run the auto tests:
 
-#### To run test in PC or Laptop viewport in debug mode: 
-
-```
-npx playwright test --debug
-```
-
-#### For run test in PC or Laptop viewport in headless mode:
+#### Tor run test in PC or Laptop viewport in headless mode:
 
 ```
-npx playwright test
+npm run test
 ```
 ```
 #### To generate report:
