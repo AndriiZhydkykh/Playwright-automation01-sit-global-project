@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 27 09:05:52 GMT 2022","Sun Nov 27 09:06:09 GMT 2022","16788","chromium","private.settings.spec.js","Subscription testing ","","","Should see the AUD currency in the payment",""
