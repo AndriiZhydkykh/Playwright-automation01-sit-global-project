@@ -6,7 +6,8 @@
   "scripts": {
     "allure-generate":"allure generate allure-results -o allure-report --clean",
     "allure-open":"allure open allure-report",
-    "test":"npx playwright test --headed"
+    "test":"npx playwright test --headed",
+    "test-headless":"npx playwright test --headed"
   },
   "keywords": [],
   "author": "",

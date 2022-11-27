@@ -10,7 +10,7 @@ Set java home and oracle install on the local hard drive
 
 ### In the terminal run this code:
 ```
-git clone https://github.com/AndriiZhydkykh/Cypress-demo-preferredmd.git
+git clone https://github.com/AndriiZhydkykh/Playwright-automation01-sit-global-project.git
 ```
 npm i
 ```
@@ -19,13 +19,17 @@ npm init playwright@latest
 ```
 
 ## Tests
+#### To run test in PC or Laptop viewport in UI mode:
+```
+npm run test 
+```
 
-#### Tor run test in PC or Laptop viewport in headless mode:
+#### To run test in PC or Laptop viewport in headless mode:
 
 ```
-npm run test
+npm run test-headless
 ```
-```
+
 #### To generate report:
 
 ```
